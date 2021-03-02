@@ -47,7 +47,7 @@
             </div>
         </nav>
     </div>
-    </h2>
+</h2>
 <div class="container">
     <div class="row">
         <div class="col-md-8">
@@ -65,107 +65,105 @@
             <p>Every device has a different addresses, which is a set of numbers unique to each device on the network.
                 The addressing system for computers on the internet forms the internet protocol or IP.
             </p>
-            <p>*** insert ip address description picture**</p>
-            <p>An IP address is a group of numbers, organized in a hierarchy. Each number is made up of bits; there are
-                normally 32 bits or 8 bits per each part of the address.</p>
-            <p>The numbers are broken down by networks, subnetworks, and finally the specific address. This naming
-                convention is called IPv4 and it provides for more than 4 billion unique addresses. With the tremendous
-                growth in both internet users and devices, IPv4 will not have enough unique addresses to last. We are
-                transitioning to a longer IP address format called IPv6, which will use 128 bits per address. This
-                provides 340 undecillion unique addresses, or more than enough for every grain of sand on earth to have
-                its own address.
-            </p>
-            <p>Visiting a website is really just your computer asking another computer for information. Your computer
-                sends a message to the other computer's IP address and it also sends its origin address so the other
-                computer knows where to send information to.</p>
+            <img class="card-img-top" src="images/ipbrkdwn.png" alt="Card image cap">
+            <p><small>This is a breakdown of an IP address</small></p>
+            <div class="row">
+                <p>An IP address is a group of numbers, organized in a hierarchy. Each number is made up of bits; there
+                    are
+                    normally 32 bits or 8 bits per each part of the address.</p>
+                <p>The numbers are broken down by networks, subnetworks, and finally the specific address. This naming
+                    convention is called IPv4 and it provides for more than 4 billion unique addresses. With the
+                    tremendous
+                    growth in both internet users and devices, IPv4 will not have enough unique addresses to last. We
+                    are
+                    transitioning to a longer IP address format called IPv6, which will use 128 bits per address. This
+                    provides 340 undecillion unique addresses, or more than enough for every grain of sand on earth to
+                    have
+                    its own address.
+                </p>
+                <p>Visiting a website is really just your computer asking another computer for information. Your
+                    computer
+                    sends a message to the other computer's IP address and it also sends its origin address so the other
+                    computer knows where to send information to.</p>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/record.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/cd.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/nap.jpg" class="d-block w-100" alt="...">
-    </div>
-      <div class="carousel-item">
-      <img src="images/youtube.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-            <h5>What is a Packet?</h5>
-            <p></p>
-            <img class="card-img-top" src="images/facebook.png" alt="Card image cap">
-            <p>A packet is a piece of information that is routed from one computer to another. Packets are used to
-                deliver data reliably.They include the origin and destination addresses.</p>
-            <p>You can think of a packet like a car. The packet moves the data from the origin to its destination. The
-                way that the information is transferred is not a fixed path. A packet may change its path based upon
-                many reasons, just as you would change in your path while driving depending upon a circumstance like
-                traffic or road conditions.</p>
-            <p>Many types of information can be sent with packets, but there are some size limits. If there is have a
-                large amount of data, the information you are trying to send may be too much for one packet. To resolve
-                this problem, the information is broken into many smaller packets.</p>
-            </p>
 
+                <h5>What is a Packet?</h5>
+                <p></p>
+
+                <p>A packet is a piece of information that is routed from one computer to another. Packets are used to
+                    deliver data reliably.They include the origin and destination addresses.</p>
+                <p>You can think of a packet like a car. The packet moves the data from the origin to its destination.
+                    The
+                    way that the information is transferred is not a fixed path. A packet may change its path based upon
+                    many reasons, just as you would change in your path while driving depending upon a circumstance like
+                    traffic or road conditions.</p>
+                <img class="card-img-top" src="images/packet.gif" alt="Card image cap">
+                <p><small>This gif demonstrates how a packet moves throughout the internet.</small></p>
+                <div class="row">
+                    <p>Many types of information can be sent with packets, but there are some size limits. If there is
+                        have a
+                        large amount of data, the information you are trying to send may be too much for one packet. To
+                        resolve
+                        this problem, the information is broken into many smaller packets which are sent separately.</p>
+                    </p>
+                    <h5>What is a Router?</h5>
+                    <p></p>
+
+                    <p>A router is a device that directs the signal to/from multiple computers to multiple internet
+                        sites. Routers act
+                        like traffic managers to keep packets moving through the network smoothly.
+                    </p>
+                    <img class="card-img-top" src="images/routerdia.jpg" alt="Card image cap">
+                    <p><small>This diagram describes what is inside a router. </small></p>
+                    <div class="row">
+                        <p> Different packets may take different routes and they may arrive at the destination at
+                            different times or out of order. As part of the IP, routers keep track of many paths for
+                            sending packets. They choose the cheapest path to get the data to its destination. In this
+                            case, cheapest does not mean least expensive. Cheapest considers time, politics, and
+                            relationships between companies. Often times, the best route for data to travel is not the
+                            most direct. Because there are path options, the internet is fault tolerant meaning the
+                            internet can keep sending packets even if something goes horribly wrong somewhere. This
+                            equals reliability!
+                        </p>
+                        <div class="row">
+                            <div class="row">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <h5>What is a Router?</h5>
-    <p></p>
-    <img class="card-img-top" src="images/facebook.png" alt="Card image cap">
-    <p>A router is a device that directs the signal to/from multiple computers to multiple internet sites. Routers act
-        like traffic managers to keep packets moving through the network smoothly.
-    </p>
-    <p>	Different packets may take different routes and they may arrive at the destination at different times or out of order. As part of the IP, routers keep track of many paths for sending packets. They choose the cheapest path to get the data to its destination. In this case, cheapest does not mean least expensive. Cheapest considers time, politics, and relationships between companies. Often times, the best route for data to travel is not the most direct. Because there are path options, the internet is fault tolerant meaning the internet can keep sending packets even if something goes horribly wrong somewhere. This equals reliability!
-    </p>
-</div>
-<div class="col-md-1"></div>
+        <div class="col-md-1"></div>
         <div class="col-md-3">
             <h1></h1>
             <p></p>
-            <img class="card-img-top" src="images/internetfunny.jpg" alt="Card image cap">
-            <p></p>
-            <p></p>
-            <img class="card-img-top" src="images/people.jpg" alt="Card image cap">
-            <p> </p>
-            <p> </p>
-            <img class="card-img-top" src="images/social2.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/router.jpg" alt="Card image cap">
+            <p><small>This is a router. </small></p>
+            <div class="row">
+                <img class="card-img-top" src="images/packrout.jpg" alt="Card image cap">
+                <p><small>Routers are like traffic managers for packets! </small></p>
+                <div class="row">
 
+                </div>
+            </div>
         </div>
-</div>
-</div>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-            crossorigin="anonymous"></script>
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        -->
 </body>
 </html>
